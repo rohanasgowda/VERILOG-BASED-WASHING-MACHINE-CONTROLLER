@@ -7,6 +7,8 @@
 ## 📌 Overview
 This project implements a **Washing Machine Controller** using **Verilog HDL**. The system simulates the washing process including water fill, wash, rinse, and spin cycles. It is designed for FPGA implementation and demonstrates sequential control using **finite state machines (FSM)**.
 
+![State Diagram](./state_diagram.png)
+
 ## 📂 Repository Structure
 
 | File | Description |
@@ -24,6 +26,8 @@ This project implements a **Washing Machine Controller** using **Verilog HDL**. 
 * **FPGA/Simulator** (ModelSim, Vivado, or equivalent)
 * **Testbench files** for simulation
 
+![RTL Schematic](./RTL_Schematic.png)
+
 ## ⚙️ Features
 * **Water Fill Cycle:** Fills the tank to a predefined level.
 * **Wash Cycle:** Simulates washing action for a set duration.
@@ -31,6 +35,8 @@ This project implements a **Washing Machine Controller** using **Verilog HDL**. 
 * **Spin Cycle:** Activates motor for drying clothes.
 * **User Inputs:** Start, Stop, and Reset controls.
 * **Display Outputs:** LEDs or 7-segment display to indicate current cycle.
+
+![Waveform Analysis](./waveform.png)
 
 ## ✅ Applications
 * FPGA/HDL learning and demonstration
